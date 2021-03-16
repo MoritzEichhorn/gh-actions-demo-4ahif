@@ -30,4 +30,4 @@ jobs:
         run: |
             echo "Hallo ich bin hier"
             ls -l target/
-            scp target/gh-actions-demo-4ahif-1.0.0-SNAPSHOT-runner.jar ubuntu@${{ secrets.HOST_IP }} :
+            scp target/gh-actions-demo-4ahif-1.0.0-SNAPSHOT-runner.jar ubuntu@${{ secrets.HOST_IP }}
